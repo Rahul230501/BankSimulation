@@ -14,7 +14,7 @@ public class Conn { //class to conect jdbc
     public Conn(){
         try{
 
-            c=DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root" ,"Rahul@543213");  // Creating connection
+            c=DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root" ,"root");  // Creating connection
             s=c.createStatement();
 
         }catch (Exception e){
