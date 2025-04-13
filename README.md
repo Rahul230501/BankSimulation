@@ -1,56 +1,72 @@
+# 🏦 Bank Management System (Java Swing + JDBC + MySQL)
 
-# BankSimulation
-In this project i create  a bank simulation using java swing , awt ,mysql.
+This is a **GUI-based banking application** developed using **Java Swing**, **JDBC**, and **MySQL**. It simulates basic banking operations such as account creation, deposit, withdrawal, and fund transfers with a simple and interactive interface.
 
-## 1. Login and SignUp Page
+---
+
+## 🚀 Features
+
+- GUI for account creation and login  
+- Deposit and withdraw money  
+- Transfer funds between accounts  
+- Transaction history tracking  
+- MySQL database integration using JDBC  
+- Secure and validated operations  
+- Indexing used to improve database performance  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language**: Java  
+- **UI**: Java Swing  
+- **Database**: MySQL  
+- **Connectivity**: JDBC  
+- **IDE**: NetBeans / IntelliJ  
+
+---
+
+## 🧪 How to Run
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Rahul230501/BankSimulation.git
+   cd BankSimulation
+   ```
+
+2. **Set up MySQL database**
+   - Create a database (e.g., `bankdb`)
+   - Import the SQL script if provided, or create tables manually
+
+3. **Configure JDBC connection**
+   - Open the project in your IDE  
+   - Update database URL, username, and password in the code
+
+4. **Run the project**
+   - Run the main class to start the application  
+   - Use the GUI to create an account and perform transactions
+
+---
+
+## 📸 Screenshots
+
+#### 1. Login and SignUp Page
 ![Screenshot_20240727_002236](https://github.com/user-attachments/assets/48156003-4d59-41af-9b24-938eac0c2179)
 
- #### MySql Query for creating login
- 
- create table login (formno varchar(20),cardnumber varchar(25),pinnumber varchar(10));
-
-## 2.SignUp Page
-
-  ###  2.1 Page 1
+#### 2.SignUp Page
 
   ![image](https://github.com/user-attachments/assets/8e0a1814-cc9c-460b-b44a-cef4bfc6d271)
 
-  #### MySql Query for creating page1
-  
-  create table signup(formno varchar(20), name varchar(20),father_name varchar(20),dob varchar(20),gender varchar(20),email varchar(30),marital_status 
-  varchar(20),address varchar(40),city varchar(20),state varchar(20),pin varchar(20));
-  use bankmanagementsystem;
-
-  ### 2.2 Page 2
-
-  ![image](https://github.com/user-attachments/assets/85f77d59-3484-4dc3-bff6-6daf184d82af)
-
-  #### MySql Query for creating page2
-  
-   create table signup2(formno varchar(20),catogory varchar(20),income varchar(20),education varchar(30),Occupation varchar(30),pan varchar(20),aadhar 
-  varchar(30),seniorCitizen varchar(20),existingaccount varchar(20));
-
-
-  ### 2.2 Page 3
+   ![image](https://github.com/user-attachments/assets/85f77d59-3484-4dc3-bff6-6daf184d82af)
 
    ![image](https://github.com/user-attachments/assets/e5696d5c-4d6e-4ac9-b6f7-b26ee7f8bdbf)
 
 
-  #### MySql Query for creating page3
-  
-  create table signup3(formno varchar(20),accountType varchar(40),cardnumber varchar(25),pinnumber varchar(10),facility varchar(100));
-
-   ## 3. Transaction
+   #### 3.Transaction
 
    ![image](https://github.com/user-attachments/assets/48ec83be-d7c8-4873-95aa-083bb77f68ea)
 
-  #### MySql Query for Transection page
-
-  create table bank(pinnumber varchar(10), date varchar(50),type varchar(20),amount varchar(20));
-
-  ### Other Screenshots
-
-  #### Deposit
+   #### Deposit
 
    ![image](https://github.com/user-attachments/assets/23777b4e-e23e-426e-b765-0e39d50d9ed6)
 
@@ -74,22 +90,38 @@ In this project i create  a bank simulation using java swing , awt ,mysql.
 
  ![image](https://github.com/user-attachments/assets/da1ccb01-bd33-42bf-9bac-9742f040dc90)
 
- ## Other Detail 
- ##### Icons and Jar file for date and MySql is also present.
 
 
 
+---
 
+## 📂 Folder Structure
 
-  
+```
+BankSimulation/
+├── src/
+│   └── bankapp/
+│       ├── AccountCreation.java
+│       ├── Login.java
+│       ├── Dashboard.java
+│       └── DBConnection.java
+└── README.md
+```
 
-  
-  
-   
+---
 
-   
+## ✨ Highlights
 
-  
-  
+- Applied **OOP principles** to organize code  
+- Used **JDBC** for database CRUD operations  
 
+---
 
+## 📬 Contact
+
+**Rahul Kumar**  
+📧 rahulkumar.230501@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/rahul-soni-java/)  
+🔗 [GitHub](https://github.com/Rahul230501)
+
+---
